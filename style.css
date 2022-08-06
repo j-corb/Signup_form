@@ -1,0 +1,28 @@
+.container {
+    height:100vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+.pretty{
+    background-image: url(imgs/Space.jpg);
+    width: 33%;
+    height: 100%;
+
+    
+}
+
+.logo {
+    background-color: black;
+    opacity: 0.5;
+    color: aliceblue;
+    position: relative;
+    width: 100%;
+    top: 25vh;
+}
+
+.info{
+    width: 67%;
+    background-color: aqua  ;
+}
