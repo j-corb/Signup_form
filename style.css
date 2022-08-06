@@ -7,22 +7,42 @@
 
 .pretty{
     background-image: url(imgs/Space.jpg);
-    width: 33%;
+    width: 37%;
     height: 100%;
-
-    
 }
 
 .logo {
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.3;
     color: aliceblue;
     position: relative;
     width: 100%;
-    top: 25vh;
+    height: 15%;
+    top: 20.05vh;
 }
 
 .info{
-    width: 67%;
-    background-color: aqua  ;
+    width: 63%;
+}
+
+.top-text {
+    background-color: yellow;
+    height: 35vh;
+}
+
+.text{
+    position: relative;
+    top: 40%;
+    padding: 0 40px 10px 50px;
+    max-width: 70%;
+}
+
+.form-info {
+    background-color: blueviolet;
+    height: 30vh;
+}
+
+.lower {
+    background-color: burlywood;
+    height: 35vh;
 }
