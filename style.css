@@ -1,6 +1,11 @@
-.container {
-    height:100vh;
+html,body {
+    height: 100vh;
     width: 100vw;
+}
+
+.container {
+    height:100%;
+    width: 100%;
     display: flex;
 
 }
@@ -26,7 +31,7 @@
 }
 
 .top-text {
-    background-color: yellow;
+    background-color:darkslateblue;
     height: 35vh;
 }
 
@@ -38,11 +43,36 @@
 }
 
 .form-info {
-    background-color: blueviolet;
-    height: 30vh;
+    background-color:slateblue;
+    min-height: 30vh;
+    display: flex;
 }
 
 .lower {
-    background-color: burlywood;
+    background-color: darkslateblue;
     height: 35vh;
+}
+
+legend {
+    padding: 20px 0 20px 40px;
+}
+
+fieldset {
+    height: 85%;
+    width: 100%;
+    border: none;
+}
+
+input, label{
+    display: block;
+}
+
+input {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    padding-left: 40px;
+    min-width: 85%;
 }
