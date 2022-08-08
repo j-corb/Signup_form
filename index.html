@@ -6,64 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" >
+    <script type="javascript" src="javascript.js" defer></script>
 </head>
 <body>
     <div class='container'>
         <div class="pretty">
             <div class="logo">
-
+                <img src="imgs/giraffe.jpg" alt="giraffe">
+                <span class="name">Giraffe</span>
             </div>
         </div>
         <div class="info">
             <div class="top-text">
                 <div class="text">
-                <p>This is not a real online service! You know you need something like this in your life 
-                    to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started.</p>
-                <p>You <em>know</em> you want to.</p>
-            </div>
+                    <p>This is not a real online service! You know you need something like this in your life 
+                        to help you realize your deepest dreams. <br>Sign up <em>now</em> to get started.</p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
             </div>
             <div class="form-info">
                 <!--<form action="" method="post/get">-->
                 <fieldset>
                     <legend>Let's do this!</legend>
                     <div class="inputs">
-                        <div style="float:left;margin-right:20px;">
-                    <label for="first_name">First Name*</label>
-                        <input type="text" name="first_name" id="first_name" required>
-                    </div>
-                    <div style="float:left;margin-right:20px;">
-                    <label for="last_name">Last Name*</label>
-                        <input type="text" name="last_name" id="last_name" required>
-                    </div>
+                        <div class = "input-box">
+                            <label for="first_name">First Name*</label>
+                            <input type="text" name="first_name" id="first_name" required>
+                        </div>
+                        <div class = "input-box">
+                            <label for="last_name">Last Name*</label>
+                            <input type="text" name="last_name" id="last_name" required>
+                        </div>
 
-                    <br style="clear:both" />
+                        <br style="clear:both" />
 
-                    <div style="float:left;margin-right:20px;">
-                    <label for="email">Email*</label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div style="float:left;margin-right:20px;">
-                    <label for="phone">Phone Number</label>
-                        <input type="tel" name="phone" id="phone">
-                    </div>
-                    <br style="clear:both" />
-                    <div style="float:left;margin-right:20px;">
-                    <label for="pwd">Password</label>
-                        <input type="password" name="password" id="password">
-                    </div>
-                    <div style="float:left;margin-right:20px;">
-                    <label for="pwd">Confirm Password</label>
-                        <input type="password" name="password" id="password">
-                    </div>
+                        <div class = "input-box">
+                            <label for="email">Email*</label>
+                            <input type="email" name="email" id="email" placeholder="Ex: john123@email.com" title="Please enter a valid email." required>
+                        </div>
+                        <div class = "input-box">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+
+                        <br style="clear:both" />
+
+                        <div class = "input-box">
+                            <label for="passwd">Password</label>
+                            <input type="password" name="passwd" id="passwd" required>
+                        </div>
+                        <div class = "input-box">
+                            <label for="pwd">Confirm Password</label>
+                            <input type="password" name="pwd" id="pwd" required>
+                        </div>
                     </div>
                 </fieldset>    
             </div>
               
             <div class="lower">
-
+                <div>
+                    <button type="button" id='btn'>Create Account</button>
+                    <p class="log-in">Already have an account? <a href="#">Log in</a></p>
+                </div>    
             </div>
         </div>
     </div>
-    
 </body>
 </html>
